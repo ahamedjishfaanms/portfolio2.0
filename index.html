@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahamed Jishfaan's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <!-- Include FontAwesome for social media icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
+    <link rel="icon" href="Images/Icon/favicon (2).ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <dotlottie-player src="https://lottie.host/d8eb3d28-3cd8-4933-90b5-37577cf86ef6/LPGS4aeYrh.lottie"
+            background="transparent" speed="1" style="width: 300px; height: 300px" loop autoplay>
+        </dotlottie-player>
+    </div>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>Ahamed Jishfaan <img src="Images/Icon/Vector.svg" alt="Verified" class="verified-icon"></h1>
+                <p>Mechanical Engineer</p>
+            </div>
+            <button class="toggle-button">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact" class="contact-button">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <!-- Home Section with Background Image -->
+    <section id="home" class="home-section">
+        <div class="home-content">
+            <!-- Left Section with Profile Photo and Social Icons -->
+            <div class="left-section">
+                <img src="Images/photo.png" alt="Ahamed Jishfaan Photo" class="profile-photo">
+                <div class="social-icons">
+                    <a href="https://wa.me/your-phone-number" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/ahamedjishfaan" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:ahamedjishfaan@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://twitter.com/ahamedjishfaan" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://linkedin.com/in/ahamedjishfaan" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+
+            <!-- Right Section with Portfolio Text and Download CV Button -->
+            <div class="right-section">
+                <h2 class="typing-text">Hey, It's Me</h2>
+                <h1>Ahamed Jishfaan</h1>
+                <p class="description">I'm a passionate Mechanical Engineer with a focus on design and innovation.</p>
+                <a href="/path-to-your/CV.pdf" class="download-cv" target="_blank">Download CV</a> <!-- Updated with direct link -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <h2 class="about-title">About Me</h2>
+        <p class="about-content">
+            I am Ahamed Jishfaan, a passionate Mechanical Engineer focused on design and innovation.
+            With a robust academic background and hands-on experience in engineering projects,
+            I bring a practical and thoughtful approach to problem solving and design. My interests
+            include 3D modeling, renewable energy systems, and the development of efficient
+            mechanical systems.
+        </p>
+
+        <!-- Experience Section -->
+        <div class="experience-section">
+            <h3 class="experience-title">Experience</h3>
+            <div class="experience-timeline">
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/atlantic.png" alt="Atlantic Oil Services LLC Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">Atlantic Oil Services LLC - Adnoc Drilling</h4>
+                        <p class="designation">Mechanical Engineer</p>
+                        <p class="date-range">17/12/2024 - Present</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/µLearn (1).png" alt="GTech MuLearn Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">GTech MuLearn</h4>
+                        <p class="designation">Operations Manager and Strategic Initiative</p>
+                        <p class="date-range">Jun 2023 - Sep 2024 · 1 yr 4 mos</p>
+                        <p class="location">Kerala, India</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/kkem_logo.jpg" alt="Kerala Knowledge Economy Mission Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">Kerala Knowledge Economy Mission</h4>
+                        <p class="designation">Research Intern</p>
+                        <p class="date-range">Nov 2023 - Feb 2024 · 4 mos</p>
+                        <p class="location">Edathala · On-site</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/iedckmea.png" alt="IEDC KMEA Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">IEDC KMEA</h4>
+                        <p class="designation">Chief Executive Officer</p>
+                        <p class="date-range">Nov 2022 - Dec 2023 · 1 yr 2 mos</p>
+                        <p class="designation">Chief Financial Officer</p>
+                        <p class="date-range">Jan 2022 - Oct 2022 · 10 mos</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/iedcsrp.jpeg" alt="Neoteric IEDC Sree Rama Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">Neoteric IEDC Sree Rama Polytechnic College, Thriprayar</h4>
+                        <p class="designation">Chief Executive Officer</p>
+                        <p class="date-range">Mar 2019 - Sep 2021 · 2 yrs 7 mos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="education-section">
+            <h3 class="education-title">Education</h3>
+            <div class="education-timeline">
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/Kmea-logo-Icon-Black (1) (1).png" alt="KMEA Engineering College Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">KMEA Engineering College</h4>
+                        <p class="designation">Bachelor of Technology, Mechanical Engineering</p>
+                        <p class="date-range">2021 - 2024</p>           
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/IIM.svg" alt="IIM Ahmedabad Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">Indian Institute of Management Ahmedabad</h4>
+                        <p class="designation">Pre Executive MBA, Statistics</p>
+                        <p class="date-range">Apr 2023 - Aug 2023</p>
+                    </div>
+                </div>
+
+                <!-- Timeline Item -->
+                <div class="timeline-item">
+                    <img src="Images/logo/srgptc-logo.jpg" alt="Sree Rama Govt. Polytechnic College Logo" class="company-logo">
+                    <div class="timeline-content">
+                        <h4 class="company-name">Sree Rama Govt. Polytechnic College</h4>
+                        <p class="designation">Polytechnic Diploma, Mechanical Engineering</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2 class="skills-title">Skills</h2>
+        <div class="skills-container">
+            <button class="skill-button">AutoCAD</button>
+            <button class="skill-button">SolidWorks</button>
+            <button class="skill-button">Revit</button>
+            <button class="skill-button">MS Office</button>
+            <button class="skill-button">HVAC</button>
+            <button class="skill-button">CNC (Computer Numerical Control)</button>
+            <button class="skill-button">3D Printing</button>
+            <button class="skill-button">HAP</button>
+            <button class="skill-button">Heat Load Calculation</button>
+            <button class="skill-button">Project Management</button>
+            <button class="skill-button">Documentation</button>
+            <button class="skill-button">Leadership</button>
+            <button class="skill-button">Decision Making</button>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications-section">
+        <h2 class="certifications-title">Certifications</h2>
+        <div class="certifications-container">
+            <div class="certificate-card">
+                <img src="Images/asnt .png" alt="ASNT NDT LEV2 Certificate" class="certificate-image">
+                <h3 class="certificate-name">ASNT NDT LEV2</h3>
+                <a href="https://drive.google.com/file/d/1M5ybx6pDsNUW1t-AWKYSRNDjGpB2NaZm/view?usp=sharing" target="_blank" class="view-certificate-button">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Images/cert2.png" alt="Modeling and Design Certificate" class="certificate-image">
+                <h3 class="certificate-name">Modeling and Design</h3>
+                <a href="https://drive.google.com/file/d/182naqIQllvZJFT-HEWaaDDrWD4JUCO4C/view?usp=sharing" target="_blank" class="view-certificate-button">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Images/Revit.png" alt="Revit Autodesk Certificate" class="certificate-image">
+                <h3 class="certificate-name">Revit Autodesk</h3>
+                <a href="https://drive.google.com/file/d/1qZEqkIr_OAHh5MieArfoPh0wQEOhDdO8/view?usp=drive_link" target="_blank" class="view-certificate-button">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Images/mba.png" alt="Pre MBA (Statistics) Certificate" class="certificate-image">
+                <h3 class="certificate-name">Pre MBA(Statistics)</h3>
+                <a href="https://drive.google.com/file/d/1m6vkosHFe7kP63c-ymMTOmfgClDVeGSs/view?usp=drive_link" target="_blank" class="view-certificate-button">View Certificate</a>
+            </div>
+            <div class="certificate-card">
+                <img src="Images/cf.jpg" alt="Corporate Finance Certificate" class="certificate-image">
+                <h3 class="certificate-name">Corporate Finance</h3>
+                <a href="https://drive.google.com/file/d/1oUe3z02o_21CpK_BFPa9tk0nN_8lmH4Z/view?usp=drive_link" target="_blank" class="view-certificate-button">View Certificate</a>
+            </div>
+        </div>
+    </section>
+    
+<!-- Projects Section -->
+<section id="projects" class="projects-section">
+    <h2 class="projects-title">Projects</h2>
+    <div class="projects-container">
+        <div class="project-card">
+            <img src="Images/p1.png" alt="Project 1" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">Rotameter Calibration Apparatus</h3>
+                <p class="project-description">A detailed report on the development and testing of a rotameter calibration apparatus.</p>
+                <a href="https://drive.google.com/file/d/1xfWMtCzwJbYjraKHGI_bWLPBErJdcUCd/view?usp=drive_link" class="project-button" target="_blank">View Report</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <img src="Images/p2.png" alt="Project 2" class="project-image">
+            <div class="project-info">
+                <h3 class="project-title">PESTICIDE SPRAYING ROVER</h3>
+                <p class="project-description">sustainable alternative to traditional methods, reducing physical strain on farmers</p>
+                <a href="https://drive.google.com/file/d/1HiS3BAiQU12u7LZVzhtAvm90KYGTkgw-/view?usp=sharing" class="project-button" target="_blank">View Report</a>
+            </div>
+        </div>
+        <!-- Additional project cards can be added here -->
+    </div>
+</section>
+
+
+<section id="achievements" class="achievements-section">
+    <dotlottie-player 
+        src="https://lottie.host/e1ad98f6-a7e7-4e0d-9ef8-0513f4231d3a/SpNzp2ss1z.lottie" 
+        background="transparent" 
+        speed="1" 
+        style="position: absolute; width: 100%; height: 100%; z-index: -1;" 
+        loop autoplay>
+    </dotlottie-player>
+    <h2 class="achievements-title">Achievements</h2>
+    <div class="achievements-container">
+        <div class="achievement-card">
+            <img src="Images/A1.png" alt="Achievement 1" class="achievement-image">
+            <h3 class="achievement-title">Winner Sciene Fair(Kerala)</h3>
+        </div>
+        <div class="achievement-card">
+            <img src="Images/A2.png" alt="Achievement 2" class="achievement-image">
+            <h3 class="achievement-title">SISF Second Runnerup(Bangalore)</h3>
+        </div>
+        <div class="achievement-card">
+            <img src="Images/A3.png" alt="Achievement 3" class="achievement-image">
+            <h3 class="achievement-title">PM Foundation Award</h3>
+        </div>
+    </div>
+</section>
+
+<!-- Blog Section -->
+<section id="blog" class="blog-section">
+    <h2 class="blog-title">Latest Blog Posts</h2>
+    <div class="blog-container">
+        <div class="blog-card">
+            <img src="Images/b1.png" alt="Blog 1" class="blog-image">
+            <div class="blog-content">
+                <h3 class="blog-heading">How Technology is Shaping the Future</h3>
+                <p class="blog-snippet">Explore the latest advancements in technology and how they are revolutionizing our world.</p>
+                <a href="/blog/how-technology-is-shaping-the-future" class="read-more-button">Read More</a>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="Images/b2.png" alt="Blog 2" class="blog-image">
+            <div class="blog-content">
+                <h3 class="blog-heading">The Importance of Sustainable Engineering</h3>
+                <p class="blog-snippet">Learn why sustainability is key in engineering and how to implement it effectively.</p>
+                <a href="/blog/sustainable-engineering" class="read-more-button">Read More</a>
+            </div>
+        </div>
+        <div class="blog-card">
+            <img src="Images/b3.png" alt="Blog 3" class="blog-image">
+            <div class="blog-content">
+                <h3 class="blog-heading">Innovations in Mechanical Design</h3>
+                <p class="blog-snippet">Discover groundbreaking designs in mechanical engineering that are setting trends.</p>
+                <a href="/blog/mechanical-design-innovations" class="read-more-button">Read More</a>
+            </div>
+        </div>
+        <!-- Add more blog cards as needed -->
+    </div>
+</section>
+
+<section id="gallery" class="gallery-section">
+    <h2 class="gallery-title">Gallery</h2>
+    <div class="gallery-container">
+        <!-- Gallery Items -->
+        <div class="gallery-item">
+            <img src="Images/Test image.png" alt="Gallery Image 1">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/Test image.png" alt="Gallery Image 2">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/Test image.png" alt="Gallery Image 3">
+        </div>
+        <div class="gallery-item">
+            <img src="Images/Test image.png" alt="Gallery Image 4">
+        </div>
+        <!-- Add more gallery items as needed -->
+    </div>
+</section>
+<section id="contact" class="contact-section">
+    <h2 class="contact-title">Contact Me</h2>
+    <div class="contact-container">
+        <!-- Address and Social Media -->
+        <div class="contact-info">
+            <p><i class="fas fa-phone"></i> Phone: +971 58 262 3031</p>
+            <p><i class="fas fa-envelope"></i> Email: <a href="mailto:ahamedjishfaan@gmail.com">ahamedjishfaan@gmail.com</a></p>
+            <p><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://linkedin.com/in/ahamedjishfaan" target="_blank">linkedin.com/in/ahamedjishfaan</a></p>
+            <p><i class="fas fa-map-marker-alt"></i> Location: Abudhabi, UAE</p>
+            <div class="social-icons">
+                <a href="https://wa.me/971582623031" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://instagram.com/your-username" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/your-username" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com/in/ahamedjishfaan" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <form class="contact-form" action="send_mail.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        
+    </div>
+</section>
+<footer class="footer">
+    <p>© 2025 Ahamed Jishfaan. All Rights Reserved.</p>
+</footer>
+
+<script defer src="script.js"></script>
+    <script>
+        // Preloader script
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                const preloader = document.getElementById('preloader');
+                preloader.style.display = 'none';
+            }, 3000); // Preloader visible for 3000 milliseconds
+        });
+    </script>
+
+</body>
+</html>
